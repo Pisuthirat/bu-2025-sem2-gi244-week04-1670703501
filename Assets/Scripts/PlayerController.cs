@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
         //Gizmos.DrawLine(transform.position, Camera.main.transform.position);
 
         Vector3 Left = new Vector3(-xRange,
-            transform.position.x,
+            transform.position.y,
             transform.position.z);
         Vector3 right = new Vector3(xRange,
             transform.position.y,
